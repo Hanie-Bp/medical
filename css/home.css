@@ -191,9 +191,9 @@ button:last-child:hover{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 5%;
+    margin-top: 3%;
     max-width: 100%;
-    height: 40%;
+    height: 30%;
 }
 
 .art_1 {
@@ -203,7 +203,7 @@ button:last-child:hover{
     justify-content: center;
     border: 1px solid;
     width: 20%;
-    height: 80%;
+    height: 100%;
     background-color: rgba(46, 60, 69, 0.108);
     border-radius: 50%;
     border: none;
@@ -229,7 +229,72 @@ button:last-child:hover{
     text-align: center;
 }
 
+.footer {
+    margin: 4% 0;
+    border: purple 1px solid;
+    width: 100%;
+    min-height: 35em;
+    background-color: rgb(29, 29, 78);
+}
+
+.section1_footer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    border: rgb(255, 0, 0) 1px solid;
+    width: 100%;
+    height: 25em;
+
+}
+
+.section2_footer {
+    border: 5px solid yellowgreen;
+    height: 10em;
+}
+
+.section1_footer > article {
+    margin-top: 4%;
+    width: 18%;
+    height: 80%;
+    background-color: rgb(138, 110, 74);
+}
+
+.section1_footer h4 {
+    display: inline-block;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-weight: bold;
+    border-bottom: 4px solid;
+    color: rgb(60, 223, 223);
+}
+
+.section1_footer p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 550;
+    margin: 20px 0 0 0;
+    font-size: 1rem;
+    color: white;
+    
+} 
+
+address a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 0.95rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+i::before {
+    content: ;
+    display: inline-block;
+    color: aqua;
+    font-size: 40%;
+    padding-right: 6px;
+}
 
 
 
-
+ 
