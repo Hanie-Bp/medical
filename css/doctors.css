@@ -195,3 +195,22 @@ small {
     color: white;
   }
 
+  .nav_card i:hover {
+    outline: rgb(255, 255, 255) solid 3px;
+    outline-offset: 5px;
+    transition: outline 0.2s;
+    border: white ;
+  }
+
+  .c1 > article:hover {
+    box-shadow: -10px -10px rgb(236, 235, 235);
+    transform: scale(1.05);
+    transition: box-shadow 0.3s;
+
+}
+
+.c1 > article:hover img {
+    
+}
+
+
