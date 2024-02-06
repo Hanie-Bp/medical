@@ -262,6 +262,15 @@ h2:last-child {
     cursor: pointer;
 }
 
+.art1_c1:hover div {
+    transform: rotateX(30deg);
+    transition: transform 1s;
+}
+
+.art1_c1:hover i {
+    transform: rotateX(30deg);
+}
+
 .a_c1 i {
     color: white;
     font-size: 1rem;
