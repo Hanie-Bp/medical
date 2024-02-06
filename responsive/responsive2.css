@@ -311,6 +311,7 @@
 }
 
 
+
 @media screen and (max-width: 420px) {
     .a_c1 {
         bottom: -160px;
@@ -318,5 +319,29 @@
     
     .c1 article:hover .a_c1 {
         bottom: -110px;
+    }
+}
+
+@media screen and (max-width: 740px) {
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer_col1 {
+        width: 90%;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (min-width: 740px) and (max-width: 900px) {
+    .footer_col1 {
+        width: 50%;
+        margin-bottom: 30px;
     }
 }
