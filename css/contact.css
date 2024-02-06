@@ -136,15 +136,17 @@ input,textarea::placeholder {
 }
 
 main input:hover {
-    box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.5);
     outline-offset: 3px;
     outline: 2px solid aqua;
+    transition: all 0.5s;
   }
 
   main textarea:hover {
-    box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.5);
     outline-offset: 2px;
     outline: 2px solid aqua;
+    transition: all 0.5s;
   }
 
   input[type="email"] , input[type="text"], textarea:focus {
